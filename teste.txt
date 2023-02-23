@@ -4,3 +4,9 @@ git init
 git add
 // para commitar e comentar
 git commit -m "comentario"
+// vincular  o reposiório remoto
+git remote * endereço (proprio git da )
+//subir r r
+git push origin ...
+//para atualizar 
+git pull

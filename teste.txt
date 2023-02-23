@@ -1,0 +1,6 @@
+// ao iniciar
+git init
+// para adicionar 
+git add
+// para commitar e comentar
+git commit -m "comentario"

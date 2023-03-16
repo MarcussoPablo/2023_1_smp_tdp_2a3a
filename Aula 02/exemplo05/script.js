@@ -1,0 +1,1 @@
+console.log("exemplo 05, agora no console")

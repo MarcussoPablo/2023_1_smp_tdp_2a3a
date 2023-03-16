@@ -1,0 +1,11 @@
+//adição (+)
+console.log(2+2)
+//subtração (-)
+console.log(4-2)
+//multiplicação (*)
+console.log(4*4)
+//divisão (/)
+console.log(6/2)
+//resto da divisão (%)
+console.log(3%2)
+

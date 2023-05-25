@@ -46,6 +46,17 @@ module.exports = {
             aceito();
           });
         });
-      }
+      },
+
+      alterar: (codigo, modelo, placa) => {
+        return new Promise((aceito, rejeitado) => {
+            db.query('UPDATE carros SET modelo=?, placa=? WHERE codigo=?',
+                [modelo, placa, codigo],(error,results) => {
+                if(error){rejeitado(error);return;}
+                aceito(results);
+                
+            });
+        });
+    },  
     
 };
